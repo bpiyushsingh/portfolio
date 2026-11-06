@@ -336,6 +336,16 @@ html body .main section.work {
   flex-direction: column;
   align-items: center;
 }
+html body .main section.work .experience-container {
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+html body .main section.work .experience-container:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
 html body .main section.work .experience-container h5 {
   font-size: 16px;
   font-weight: 400;
@@ -369,7 +379,7 @@ html body .main section.work .experience-container .role-details ul li {
 }
 html body .main section.work .experience-container .role-details ul li .role-detail-key {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 html body .main section.work .experience-container .role-details ul li .role-detail-value {
   display: inline;
